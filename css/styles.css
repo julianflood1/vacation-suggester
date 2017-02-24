@@ -1,3 +1,7 @@
+#portland, #sanfrancisco, #miami, #lasvegas {
+  display: none;
+}
+
 h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 80px;
