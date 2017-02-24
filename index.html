@@ -5,12 +5,62 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <title>Destination Vacation</title>
   </head>
   <body>
     <div class="container">
       <h1>Destination Vacation!</h1>
-      
+
+      <form id="survey">
+
+        <div class="form-group">
+          <h3>Please enter your age</h3>
+            <input id="age" class="form-control" type="text">
+        </div>
+
+        <h3>Please select your favorite season</h3>
+        <select class="form-control" id="favorite-season">
+          <option>Nothing Selected</option>
+          <option value="10">Winter</option>
+          <option value="20">Spring</option>
+          <option value="30">Summer</option>
+          <option value="40">Autumn</option>
+        </select>
+
+        <h3>Please select your typical bedtime</h3>
+        <select class="form-control" id="bedtime">
+          <option>Nothing Selected</option>
+          <option value="10">8pm</option>
+          <option value="20">10pm</option>
+          <option value="30">11pm</option>
+          <option value="40">Midnight</option>
+          <option value="50">2am</option>
+          <option value="100">I don't sleep!</option>
+        </select>
+
+        <h3>Please select your favorite food</h3>
+        <select class="form-control" id="favorite-food">
+          <option>Nothing Selected</option>
+          <option value="10">Salad</option>
+          <option value="20">Sandwich</option>
+          <option value="30">Steak</option>
+          <option value="40">Pizza</option>
+          <option value="50">Cheeseburger</option>
+          <<option value="100">Fried Chicken</option>
+        </select>
+
+        <h3>Please select your favorite past time activity</h3>
+        <select class="form-control" id="past-time">
+          <option>Nothing Selected</option>
+          <option value="10">Outdoor activities/Hiking</option>
+          <option value="20">Reading in the hotel room</option>
+          <option value="30">Visiting local landmarks</option>
+          <option value="40">Socializing with the locals</option>
+          <option value="100">Going clubbing/getting drunk</option>
+
+        <button type="submit" class="btn">Click here to reveal your vacation destination!</button>
+      </form>
     </div>
   </body>
 </html>
