@@ -12,23 +12,23 @@ $(document).ready(function() {
 
     $('.name').text(nameInput);
 
-    $('#portland').hide(); 
+    $('#portland').hide();
     $('#sanfrancisco').hide();
     $('#miami').hide();
     $('#lasvegas').hide();
     $('#survey').hide();
+    $('#header').hide();
+
 
     if((totalInput >= 40) && (totalInput <= 70)) {
-      $('#portland').show();
+      $('#portland').fadeIn(2500);
     } else if ((totalInput >= 80) && (totalInput <= 110 )) {
-      $('#sanfrancisco').show();
+      $('#sanfrancisco').fadeIn(2500);
     } else if ((totalInput >= 120) && (totalInput <= 150 )) {
-      $('#miami').show();
+      $('#miami').fadeIn(2500);
     } else if ((totalInput >= 160) && (totalInput <= 5000 )) {
-      $('#lasvegas').show();
+      $('#lasvegas').fadeIn(2500);
     }  else (alert("Please completely fill out survey!"));
-
-
 
   });
 });
