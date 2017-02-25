@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $('.name').text(nameInput);
 
-    $('#portland').hide();
+    $('#portland').hide(); 
     $('#sanfrancisco').hide();
     $('#miami').hide();
     $('#lasvegas').hide();
