@@ -1,10 +1,3 @@
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 30px;
-        color: blue;
-    }
-}
-
 #portland, #sanfrancisco, #miami, #lasvegas {
   display: none;
 }
