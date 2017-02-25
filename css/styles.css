@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 50px;
-    };
+        font-size: 30px;
+        color: blue;
+    }
 }
 
 #portland, #sanfrancisco, #miami, #lasvegas {
@@ -20,7 +21,7 @@ body {
   border: black solid 10px;
 }
 
-h1 {
+#header h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 90px;
   text-align: center;
